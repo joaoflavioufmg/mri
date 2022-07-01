@@ -24,6 +24,21 @@ Results suggest, for instance, that the acquisition of 210 MRIs is enough to sat
 
 The purchase of 109 new MRIs added to the 2,349 existing MRI devices would be capable of performing 3.86 million MRI exams per year, covering the demand for 4,926 municipalities, 88\% of the total. The acquisition of 210 new MRIs would be sufficient to perform 4.15 million MRIs per year, covering the demand for 5,289 municipalities, 95\% of the total. The acquisition of 312 new MRIs would be sufficient to perform 4.29 million MRI exams per year, covering the demand for 5,316 municipalities, 95\% of the total.
 
+
+|                                  | **Minimum MRI** |         |         | **Maximum MRI** |         |         |
+|----------------------------------|:---------------:|:-------:|:-------:|:---------------:|:-------:|:-------:|
+|                                  |     **MDC**     | **MMC** | **MPD** |     **MDC**     | **MMC** | **MPD** |
+| **Municipalities with MRI**     |             463 |     462 |     578 |             559 |     501 |     761 |
+| **New MRIs**                    |             109 |     109 |     123 |             312 |     312 |     312 |
+| **MRI exams (exams/yr)**        |           3,861 |   2,741 |   4,003 |           4,289 |    4,99 |   4,291 |
+| **Displacement (km)**           |          280.3  |  462.0  |  243.3  |          230.2  |  577.5  |  177.6  |
+| **MRIs equip. costs (\$M)&ast;**   |             163 |     163 |     184 |             468 |     468 |     468 |
+| **MRIs exams costs (\$M/yr)&ast;** |            1.7  |    1.2  |    1.8  |            1.9  |    2.2  |    1.9  |
+||||||||
+
+&ast; We estimate an MRI costing \$1.5M and an MRI exam costing \$450
+
+
 We report accessibility gains by location-allocation plans that consider different MRIs offer profiles to evaluate patient displacement.
 
 ![Figure 6](https://github.com/joaoflavioufmg/mri/blob/main/figs/mri-scenario-02.png)
