@@ -134,10 +134,7 @@ param KD{j in J} integer := if RMN[j] = 0 then 0 else max(1,ceil(RMN[j]*CAP[j]-E
 check{j in J: RMN[j] = 0}: KD[j] = 0;
 check{j in J: RMN[j] > 0}: KD[j] > 0;
 #==========================================================================================================
-# Standard cost of MRI equipment
-param C:= 1500000;           
-#==========================================================================================================
-# Facility location-allocation model for MRI equipment
+# Facility location-allocation models for MRI equipment
 #==========================================================================================================
 # If patients from municipality i are treated in municipality j or not
 var y{i in I,j in N[i]} binary;		
@@ -146,12 +143,8 @@ var x{j in J} binary;
 # Acquisition of >> new << MRI equipment in the municipality j
 var z{j in J}, >= 0, integer;
 #==========================================================================================================
-# Objective Function I
-maximize ATENDIMENTO: sum{i in I,j in N[i]: (i,j) in K} (D[i,j]*y[i,j] - z[j]);
-# Objective Function II
-# minimize CUSTO: sum{j in I} C*(x[j] + z[j]);
-# Objective Function III
-# minimize DESLOCAMENTO: sum{i in I,j in N[i]: (i,j) in K} (DIST[i,j]*y[i,j]);
+# Objective Function: Min displacement location-allocation
+minimize DESLOCAMENTO: sum{i in I,j in N[i]: (i,j) in K} (DIST[i,j]*y[i,j]);
 #==========================================================================================================
 # Limits the installation of MRI equipment by government budget
 s.t. R2: sum{j in J} z[j] <= P;
