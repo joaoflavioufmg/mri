@@ -1,5 +1,4 @@
-# mri
-MRI location-allocation
+# MRI location-allocation
 
 Suplementar material for manuscript entitled "Re-designing the accessibility of MRI medical services: a case study of Brazilian National Health System", for Decision Analytics Journal. Reference: DAJOUR-D-22-00090.
 
