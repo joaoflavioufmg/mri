@@ -58,7 +58,7 @@ Flow
 
 **Current location - Current number of MRIs**
 
-| **GEOCOD** | **MUNICIPALITY**               | **CAPACITY** (exams/y) | **DEMAND** (exams/y) | **ASSIGN** | **MRIs** | **FUTURE CAP** | **FUTURE IDLE CAP** |
+| **GEOCOD** | **MUNICIPALITY**               | **CAPACITY** (exams/y) | **DEMAND** (exams/y) | **ASSIGN** (exams/y) | **MRIs** | **FUTURE CAP** (exams/y) | **FUTURE IDLE CAP** (exams/y)|
 |------------|--------------------------------|--------------|------------|------------|----------|----------------|---------------------|
 | 1100023    | Ariquemes                      | 5713         | 10396      | 5688       | 2        | 5713           | 24                  |
 | 1100049    | Cacoal                         | 13687        | 10937      | 7844       | 5        | 13687          | 5842                |
